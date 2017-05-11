@@ -16,8 +16,3 @@ test(`arrayify returns the array if it's given an array`, () => {
   const result = arrayify(input)
   expect(result).toEqual(input)
 })
-
-test('I submitted my elaboration and feedback', () => {
-  const submitted = true
-  expect(true).toBe(submitted)
-})
