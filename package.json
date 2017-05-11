@@ -1,0 +1,16 @@
+{
+  "name": "testing-demos",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "git@github.com:kentcdodds/testing-demos.git",
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  }
+}
